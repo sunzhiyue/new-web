@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Segment, Dropdown } from 'semantic-ui-react';
+import { Header, Segment, Dropdown, Image } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 const options = [
@@ -24,6 +24,7 @@ const options = [
 ];
 const HeaderExampleTextAlignment = () => (
   <Segment>
+    <Image src="http://isujin.com/wp-content/uploads/2017/11/wallhaven-557971.jpg"fluid />
     <Header as="h3" textAlign="right">
       Float Right
     </Header>
@@ -38,6 +39,7 @@ const HeaderExampleTextAlignment = () => (
     </Header>
     <Dropdown placeholder="多选" fluid multiple selection options={options} />
   </Segment>
+
 );
 
 export default HeaderExampleTextAlignment;
