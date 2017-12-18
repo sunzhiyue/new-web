@@ -30,12 +30,17 @@ const HeaderExampleTextAlignment = () => (
           </div>
         </div>
       </Segment>
-    </div>
-    <div className={styles.primary}>
-      <div>
-        <a href="" >
-          <Image src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/09/wallhaven-241627.jpg" size="big" />
-        </a>
+      <div className={styles.primary}>
+        <div className={styles.post}>
+          <a href="" >
+            <img alt="图片" src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/09/wallhaven-241627.jpg" size="big" />
+          </a>
+          <div className={styles.else}>
+            <p>九月 19，2017</p>
+            <h3><a href="">我是占位符</a></h3>
+            <p>占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符。。。</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
