@@ -74,36 +74,58 @@
   position: relative;
 }
 .post {
-  margin: 100px auto 0;
+  margin:100px auto 0;
   width: 1200px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  position:relative;
+  z-index: 3;
 }
-.post > a {
+.post>.img {
   display: inline-block;
   width: 680px;
   height: 440px;
-  overflow: hidden;
-  position: relative;
-  z-index: 3;
+  z-index: 4;
 }
-.post img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.else {
-  left: 450px;
-  top: 10px;
-  width: 420px;
-  height: 200px;
-  position: absolute;
+.post>.else {
+  width: 498px;
+  height: 398px;
   border: 1px solid #eaeaea;
-  text-align: left;
-  background: #fff;
-}
-.else p {
-  font-size: 12px;
-  margin: 50px 0 0 60px;
-  color: #999;
+  background:transparent;
+  position:absolute;
+  z-index: 2;
+  left: 650px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 22px 0;
 
+}
+.else>p{
+  color: #999;
+  font-size: 12px;
+}
+.else>p:first-child {
+ margin: 80px 0 0 80px;
+}
+.else h3 {
+  font-size: 30px;
+  line-height: 1.1;
+  margin: 10px 100px 0 80px;
+  
+}
+.else h3 a{ 
+  color: #000;
+  font-weight: 50;
+}
+.content{
+  line-height: 2;
+  margin: 20px 0 0 80px;
+
+}
+.icon {
+  margin: 20px 10px 0 80px;
+}
+.icon p{
+  padding: 0 5px;
 }
