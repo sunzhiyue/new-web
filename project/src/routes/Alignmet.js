@@ -1,7 +1,7 @@
 import React from 'react';
 import { Segment, Image, Icon, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-import Cardcontent from '../components/Cardcontent/Cardcontent';
+import Cardcontent from '../components/semantic/Cardcontent/Cardcontent';
 import styles from './aignment.less';
 
 // const panels = [{
