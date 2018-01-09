@@ -14,7 +14,7 @@ import styles from './aignment.less';
 
 const HeaderExampleTextAlignment = () => (
   <div>
-    <div className={styles.nav} >
+    <div id={styles.nav} >
       <ul className={styles.list}>
         <li><a href="">联系我们</a></li>
         <li><a href="">联系我们</a></li>
