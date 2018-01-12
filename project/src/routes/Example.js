@@ -1,18 +1,13 @@
+/**
+ * 2018-1-10 sunzhiyue
+ */
 import React from 'react';
 import { Segment, Image, Icon, Button } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import Cardcontent from '../components/semantic/Cardcontent/Cardcontent';
 import styles from './aignment.less';
 
-// const panels = [{
-//   title: '说句再见吧，少年',
-//   content: '1 毕业之后，我和大学的很多同学都留在了这座不大的城市里，两个室友在学校附近租了一套小资豪华房，我...',
-// }, {
-//   title: '说句再见吧，少',
-//   content: '1 毕业之后，我和大学的很多同学都留在了这座不大的城市里，两个室友在学校附近租了一套小资豪华房，我...',
-// }];
-
-const HeaderExampleTextAlignment = () => (
+const Example = () => (
   <div>
     <div id={styles.nav} >
       <ul className={styles.list}>
@@ -60,11 +55,11 @@ const HeaderExampleTextAlignment = () => (
       <div className={styles.primary}>
         <div className={styles.post}>
           <div className={styles.img}>
-            <a href="" ><img alt="图片" src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/09/wallhaven-241627.jpg" size="big" /></a>
+            <a href="" ><img alt="图片" src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/09/wallhaven-558971.jpg" size="big" /></a>
           </div>
           <div className={styles.else}>
             <p>九月 19，2017</p>
-            <h3><a href="">我终于瘦下来了，却不再喜欢你</a></h3>
+            <h3><a href="">失恋，让我成为更好的人</a></h3>
             <p className={styles.content}>01 许桐最大的毛病就是贪吃。
              她尤其喜欢吃甜<br />食，精致的蛋糕、松软的面包、酥脆的饼干都是她<br />的心头好...</p>
             <div className={styles.icon}>
@@ -78,13 +73,13 @@ const HeaderExampleTextAlignment = () => (
       <div className={styles.primary}>
         <div className={styles.post}>
           <div className={styles.img}>
-            <a href="" ><img alt="图片" src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/09/wallhaven-241627.jpg" size="big" /></a>
+            <a href="" ><img alt="图片" src="http://isujin.com/wp-content/themes/Diaspora/timthumb/timthumb.php?src=http://isujin.com/wp-content/uploads/2017/07/wallhaven-134449.jpg" size="big" /></a>
           </div>
           <div className={styles.else}>
-            <p>九月 19，2017</p>
-            <h3><a href="">我终于瘦下来了，却不再喜欢你</a></h3>
-            <p className={styles.content}>01 许桐最大的毛病就是贪吃。
-             她尤其喜欢吃甜<br />食，精致的蛋糕、松软的面包、酥脆的饼干都是她<br />的心头好...</p>
+            <p>五月 29, 2017</p>
+            <h3><a href="">终有弱水替沧海，再把相思寄巫山</a></h3>
+            <p className={styles.content}>那个笑起来眼睛弯弯成月牙，灿若星光，梨涡勾起俏皮弧度，耀如暖阳的姑娘，
+            她恋爱了那个在你耳边...的心头好...</p>
             <div className={styles.icon}>
               <Icon color="grey" name="edit" />111
               <Icon color="grey" name="unhide" />222
@@ -94,16 +89,9 @@ const HeaderExampleTextAlignment = () => (
         </div>
       </div>
       <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
-      <Cardcontent />
     </div>
     <div className={styles.button}><Button sizc="big" basic >加载更多</Button></div>
   </div>
 );
 
-export default HeaderExampleTextAlignment;
+export default Example;

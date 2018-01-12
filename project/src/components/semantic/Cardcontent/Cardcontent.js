@@ -1,3 +1,6 @@
+/**
+ * sunzhiyue 2018-1-9
+ */
 import React from 'react';
 import { Icon } from 'semantic-ui-react';
 import styles from './Cardcontent.less';
